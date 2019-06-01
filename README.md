@@ -1,2 +1,0 @@
-# promo
-Created with CodeSandbox

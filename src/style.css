@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
+
+body {
+  background-color: #454d66;
+  color: #fab95b;
+  font-weight: bold;
+  font-family: 'Varela Round', sans-serif;
+}
+
+h1 {
+  width: 250px;
+  padding: 10px 0px;
+  margin: 0px auto;
+  margin-top: 50px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #002f35;
+  border-radius: 5px;
+  color: gray;
+}
+
+.app {
+  width: 400px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.settings {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  text-align: center;
+}
+
+.visual {
+  display: inline-block;
+  width: 50px;
+  font-size: 25px;
+  color:#f8f1f1;
+}
+
+.display {
+  margin: 20px 0 20px 0;
+  background-color: #002f35;
+  border-radius: 5px;
+  font-weight: bold;
+  color: gray;
+}
+
+#time-left{
+  width: 100%;
+  min-height: 60px;
+  color : #f8f1f1;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.increment,
+.decrement,
+.start_stop,
+.reset {
+  color:gray;
+  margin: 0px 8px;
+  font-size: 25px;
+  cursor: hand;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome and Opera */
+}
